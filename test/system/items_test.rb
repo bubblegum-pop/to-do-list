@@ -7,7 +7,7 @@ class ItemsTest < ApplicationSystemTestCase
 
   test "visiting the index" do
     visit items_url
-    assert_selector "h1", text: "Items"
+    assert_selector "h1", text: "My To-Do List"
   end
 
   test "should create item" do
